@@ -1,4 +1,3 @@
-import javax.print.attribute.standard.Sides;
 
 public class Veiculo {
 
@@ -12,6 +11,7 @@ public class Veiculo {
 
 
     public Veiculo(String placa, String marca, String modelo, String cor, Float velocMax, Integer qntRodas, Motor motor) {
+
         this.placa = placa;
         this.marca = marca;
         this.modelo = modelo;
